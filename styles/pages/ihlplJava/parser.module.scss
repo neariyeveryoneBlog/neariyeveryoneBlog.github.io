@@ -1,0 +1,27 @@
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+#description {
+  width: 66vw;
+  font-size: 20px;
+  text-align: center;
+  &:last-child {
+    margin-bottom: 100px;
+  }
+  span {
+    color: orangered;
+  }
+  a {
+    color: cadetblue;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bolder;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

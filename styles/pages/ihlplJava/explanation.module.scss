@@ -1,0 +1,37 @@
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  scroll-padding-block: 60px;
+}
+
+#description {
+  width: 66vw;
+  font-size: 20px;
+  text-align: center;
+  span {
+    color: orangered;
+  }
+  a {
+    color: cadetblue;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bolder;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.container {
+  box-shadow: inset 0 0 10px -2px black;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+  &:last-child {
+    margin-bottom: 100px;
+  }
+}
